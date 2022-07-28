@@ -238,7 +238,7 @@ html {
 
 .tour .tour-place {
     background-color: #fff;
-    padding: 15px 0;
+    padding: 15px 15px;
 
 }
 
@@ -251,22 +251,22 @@ html {
     font-size: 15px;
     line-height: 1.5;
     color: #000000;
-    margin: 0 15px 15px 15px;
+    margin: 15px 0;
 }
 
 .place-date, .place-desc {
     font-size: 15px;
     line-height: 1.4;
     color: #000000;
-    margin: 15px 0 15px 15px;
+    margin: 15px 0 ;
 }
 
 .tour .place-date {
     opacity: 0.6;
+    
 }
 
 .tour .btn-tickets {
-    margin-left: 15px;
     color: #fff;
     background-color: #000;
     text-decoration: none;
