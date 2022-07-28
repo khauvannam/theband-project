@@ -1,0 +1,151 @@
+
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1024px) {
+    .btton-menu {
+        display: none;
+    }
+}
+/* PC */
+@media (min-width: 1024px) {
+
+}
+/* MOBILE */
+@media (max-width: 739px) {
+    #header {
+        overflow: hidden;
+        height: 47px;
+        display: block;
+
+    }
+    
+    .section {
+        padding: 64px 16px 96px;
+
+    }
+
+    .nav {
+        flex-direction: column;
+        
+    }
+
+    .nav .nav-item:hover a {
+        display: block;
+    }
+    
+    .nav .nav-item:first-child a {
+        display: inline-block;
+    }
+
+    .subnav {
+        background-color: #333 ;
+        list-style-type: none;
+        box-shadow: none;
+    
+    }
+
+    .subnav-item > a {
+        color: #fff; 
+    }
+
+    .subnav > .subnav-item > a {
+        padding: 2px 40px 2px 35px;
+    }
+
+    .btton .btton-search {
+        display: none;
+
+    }
+    
+    .btton .btton-menu {
+        color:  white;
+        display: block;
+        padding: 0 23px;
+        line-height: 47px;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+    }
+
+    .the-band {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section .about-text {
+        margin-bottom: 31px;
+    
+    }
+
+    .the-band .the-band-name {
+        margin: 31px 0 15px 0;
+
+    }
+
+    .the-band .the-band-list {
+        text-align: center;
+        width: 100%;
+    }
+
+    .the-band .the-band-img {
+        width: 60%;
+        padding-bottom: 0px; 
+    
+    }
+
+    .tour {
+        flex-direction: column;
+        align-items: center;
+
+    } 
+
+    .tour .tour-about {
+        width: auto;
+
+    }
+
+    .tour .tour-place {
+        margin-bottom: 16px;
+
+    }
+
+    .all-contact-text {
+        flex-direction: column;
+
+    }
+
+    .name, .email {
+        width: 100%;
+
+    }
+
+    .email {
+        margin-left: auto;
+        margin-top: 10px;
+
+    }
+
+    .send {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-container {
+        display: block;
+    }
+
+    .footer-close {
+        text-align: center;
+    }
+
+    .footer-help {
+        float: right;
+        margin-top: 31px;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
